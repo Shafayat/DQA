@@ -1,0 +1,16 @@
+{
+    "name": "question-rotation-system",
+    "version": "1.0.0",
+    "description": "Question rotation system with region-specific question assignment",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.17.1",
+        "moment-timezone": "^0.5.34",
+        "mongoose": "^5.12.3",
+        "node-cron": "^2.0.3"
+    }
+}
